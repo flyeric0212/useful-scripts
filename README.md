@@ -2,7 +2,7 @@
 
 ### java 相关
 
-1. show-busy-java-threads  
+1.show-busy-java-threads  
 
 用于快速排查`Java`的`CPU`性能问题(`top us`值过高)，自动查出运行的`Java`进程中消耗`CPU`多的线程，并打印出其线程栈，从而确定导致性能问题的方法调用。
 
@@ -25,3 +25,7 @@
 1. tcp-connection-state-counter
 
 统计各个`TCP`连接状态的个数。用于方便排查系统连接负荷问题。
+
+## Project Shell
+
+用于定义project相关的shell
